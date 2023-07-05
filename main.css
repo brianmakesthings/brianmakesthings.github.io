@@ -19,14 +19,6 @@ h2 {
     padding-top: 1em;
 }
 
-table {
-    table-layout: auto;
-}
-
-td {
-    padding: 0.25em;
-}
-
 a {
     text-decoration: none;
 }
