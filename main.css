@@ -18,3 +18,19 @@ h2 {
     margin-top: 1em;
     padding-top: 1em;
 }
+
+table {
+    table-layout: auto;
+}
+
+td {
+    padding: 0.25em;
+}
+
+.date_range {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
