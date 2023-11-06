@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/main.css" />
 
     <!-- Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>hljs.highlightAll();</script>
 
-    <title>Brian Le</title>
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+
+    <title>Brian Le: {{page.title}} </title>
 </head>
 <body>
-    <a href="/"><h1>Brian Le</h1></a>
+    <h1>
+        <a href="/">
+            Brian Le
+        </a>
+    </h1>
 
     {{ content }}
 </body>

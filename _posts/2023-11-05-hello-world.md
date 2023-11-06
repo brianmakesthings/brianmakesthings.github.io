@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello world!"
+title: "Hello World!"
 ---
 
 # Hello World!
@@ -23,5 +23,3 @@ fn main() {
     println!("Here's a rust exmaple too!")
 }
 ```
-
-And of course, I think images are important as well!
