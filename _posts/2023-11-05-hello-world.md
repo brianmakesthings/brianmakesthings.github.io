@@ -7,7 +7,7 @@ title: "Hello World!"
 
 Today I learned that Github Pages is actually served by Jekyll, a static site generator with a built-in blogging capabilities. As such I've decided to put in the effort to actually learn how to use it and eliminate any excuses I have that will stop me from focusing on the writing.
 
-As a software developer, one of the biggest things I want to ensure is that I can write code blocks in many languages.
+As a developer, one of the biggest things I want to ensure is that I can write code blocks in many languages.
 
 ```ruby
 puts "Here's a ruby example!"
