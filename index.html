@@ -21,15 +21,15 @@
 	<p>More generally, my main thoughts usually hover around professional development, personal finance, anime and manga, urbanism, and my relationships with friends and family.</p>
 	<p>I'm always happy to meet new people so feel free to reach out to me on my LinkedIn but please include a short note on why you want to connect!</p>
 
-    <a href="https://linkedin.com/in/brianlebustech" target="_blank">LinkedIn</a>
+    <a href="https://linkedin.com/in/brianQL" target="_blank">LinkedIn</a>
 
     <hr>
 
     <h2>Blog Posts</h2>
     <ul>
-    {% for post in site.posts reversed %}
+    {% for post in site.posts %}
         <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ post.url }}">{{post.date | date: "%Y-%m-%d" }}: {{ post.title }}</a>
         </li>
     {% endfor %}
     </ul>
