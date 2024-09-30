@@ -14,11 +14,6 @@ strong {
   color: #333;
 }
   
-h2 {
-    margin-top: 1em;
-    padding-top: 1em;
-}
-
 a {
     text-decoration: none;
 }
@@ -34,3 +29,21 @@ h1 a:visited {
 h1 a:hover {
     color: #777;
 }
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    color: #999;
+}
+
+.highlight {
+  padding: 1px 10px;
+}
+
+/* p code {
+    background-color: #444;
+    padding: 2px;
+    color: #d0d0d0;
+} */
