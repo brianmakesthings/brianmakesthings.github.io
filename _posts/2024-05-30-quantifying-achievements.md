@@ -14,7 +14,7 @@ As a software developer there are broadly two types of impact you can focus on: 
 
 ### Software Metrics
 
-Two key ways to gather these software metrics are observability tools and benchmarks.
+Two key ways to gather software metrics are observability tools and benchmarks.
 
 Usually when I think of quantifiable software achievements, I think of things like speeding up the response time of an endpoint or reducing the number errors within the system (similar to the [RED metrics](https://grafana.com/blog/2018/08/02/the-red-method-how-to-instrument-your-services/) for system observability).
 
@@ -48,4 +48,5 @@ These key people can help you identify the higher level business impact of your 
 
 ---
 
-I hope that these tips help! Let me know if you'd be interested in a tutorial of setting up some observability tools for your project!
+I hope that these tips help! 
+Being relatively new to the industry, I'm sure there are methods and metrics that I've missed. Please reach out to me and let me know what those things are!
