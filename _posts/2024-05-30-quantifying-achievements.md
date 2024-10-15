@@ -6,11 +6,12 @@ title: "How to add numbers to your resume"
 # How to add numbers to your resume
 ## A Software Developer's guide to quantifying your impact
 
-One of the most common pieces of feedback I got on my resume while I was a student was to add numbers to help quantify the achievements on my resume but I had no idea how to do so.
+One of the most common pieces of feedback I got on my resume while I was a student was to add numbers to help quantify the achievements but I had no idea how to do so.
 Some people have told me with a straight face that you can estimate, guess, or make up these numbers but this never really sat right by me.
+
 After working as a developer for two years, I've learned a few ways to quantify my achievements that I'd love to share!
 
-As a software developer, two types of quantifiable metrics you can broadly focus on are software quality or performance and business metrics.
+Two types of quantifiable metrics you can broadly focus on are software quality or performance and business metrics.
 
 ### Software Metrics
 
@@ -26,14 +27,14 @@ These are often used in conjunction with tools such as [Datadog](https://www.dat
 
 The observability methodology is great if your software is being deployed and used by an already large user base but sometimes you don't have enough users to get a reliable read.
 
-A great alternative can be well-designed, statistically significant benchmarks. Most languages have packages that allow you to run benchmarks on different implementations of code. This way if you improve the performance of a function, you can provide a real, tested number on exactly how much you improved it by.
+A great alternative can be well-designed, statistically significant benchmarks. Most languages have packages that allow you to run benchmarks on different implementations of code. This way if you improve the performance of a function, you can provide a real, reasonable number to back up your claims. Some such libraries are [benchmark-ips](https://github.com/evanphx/benchmark-ips) for Ruby, Python's [timeit](https://docs.python.org/3/library/timeit.html) module, or [criterion.rs](https://github.com/bheisler/criterion.rs) for Rust.
 
 ### Business Metrics
 
 If you're writing a resume, you're likely looking to get a job in an organization that cares more about profit and costs over things like the time complexity of your function.
 As such, we must enter the world of business metrics.
 
-Suppose you added a new feature to the product you worked on. Congratulations! To capture the impact of this accomplishment you should ask yourself questions such as
+Suppose you added a new feature to the product you worked on—congratulations! To capture the impact of this accomplishment you should ask yourself questions such as, but not limited to
 
 - How many people use this feature?
 - What does this feature enable users to do?
@@ -44,7 +45,14 @@ Some of these can be tracked quite easily by running a few SQL queries but other
 
 Before starting a project, these key stakeholders have likely already scoped out the quantifiable business impact or perhaps will be the ones creating reports to summarize the findings or results from the project. 
 This means they don't need to do any extra work, they just need to share their findings with you.
-These key people can help you identify the higher-level business impact of your project, feature, or bug fix which you can then steal and put in your brag doc or resume!
+
+It's important to have an understanding of which metrics your company cares about at the moment. Common ones are gross profit (GP), daily active users (DAU), and monthly recurring revenue (MRR) but there are many more!
+
+One challenge you might face is that changes in these metrics can sometimes be attributed to multiple factors, making it hard to isolate the impact of your specific feature. 
+In such cases, running an A/B experiment can be a powerful way to measure the effect of your feature alone.
+Collaborating with data scientists or analysts and getting buy-in from your manager can help you set up an experiment that clearly ties the results to your work.
+
+These key people can help you identify the higher-level business impact of your project, feature, or bug fix which you can then steal and put in your [brag doc](https://jvns.ca/blog/brag-documents/) or resume!
 
 ---
 
