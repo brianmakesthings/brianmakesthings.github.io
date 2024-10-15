@@ -57,4 +57,4 @@ These key people can help you identify the higher-level business impact of your 
 ---
 
 I hope that these tips help! 
-Being relatively new to the industry, I'm sure there are methods and metrics that I've missed. Please reach out to me and let me know what those things are!
+Being relatively new to the industry, I'm sure there are methods and metrics that I've missed. Please [leave a comment on HN](https://news.ycombinator.com/item?id=41848978) and let me know what those things are!
